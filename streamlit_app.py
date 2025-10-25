@@ -593,7 +593,7 @@ elif current_section == "IV":
                 font=dict(size=12, color='#ccc'),
                 paper_bgcolor='rgba(0,0,0,0)'
             )
-            fig_power_pie.update_traces(textposition='inside', textinfo='percent+label', textfont=dict(color='white'))
+            fig_power_pie.update_traces(textposition='inside', textinfo='percent+label', textfont=dict(color='#000000'))
             st.plotly_chart(fig_power_pie, use_container_width=True)
         
         with col2:
