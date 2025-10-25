@@ -22,3 +22,6 @@ The app will open automatically in your default browser at `http://localhost:850
 Make sure the CSV file `consolidation-etalab-schema-irve-statique-v-2.3.1-20251024.csv` is in the same directory as `streamlit_app.py`
 
 Download it here : https://www.data.gouv.fr/datasets/base-nationale-des-irve-infrastructures-de-recharge-pour-vehicules-electriques/#/resources/eb76d20a-8501-400e-b336-d85724de5435
+
+## Streamlit Cloud Link :
+https://an0maly404-dataviz-finalproject-streamlit-app-ghykd3.streamlit.app/
