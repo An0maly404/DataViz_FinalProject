@@ -262,7 +262,6 @@ SECTIONS = {
     "VI": {"title": "Payment Methods & Reservations"},
     "VII": {"title": "Closing the Infrastructure Gap"},
     "VIII": {"title": "Conclusion"},
-    "IX": {"title": "Data Sources & Methodology"},
 }
 
 # ============================================================================
@@ -978,7 +977,7 @@ elif current_section == "VIII":
 # ============================================================================
 # DATA SOURCES
 # ============================================================================
-elif current_section == "IX":
+
     st.markdown("---")
     st.markdown("## Raw Data")
 
