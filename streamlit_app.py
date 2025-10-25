@@ -136,6 +136,65 @@ st.markdown("""
         line-height: 1.7;
         font-size: 1.05rem;
     }
+    
+    /* Navigation header styling */
+    [data-testid="stSidebar"] h1 {
+        color: #667eea;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-bottom: 0.5rem;
+    }
+    
+    /* Enhanced button styling with hover effects */
+    [data-testid="stSidebar"] button {
+        width: 100%;
+        text-align: left;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 0.75rem 1rem;
+        margin: 0.3rem 0;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 500;
+        color: #e0e0e0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Hover effect */
+    [data-testid="stSidebar"] button:hover {
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(102, 126, 234, 0.1) 100%);
+        border-color: #667eea;
+        transform: translateX(5px);
+        box-shadow: 0 4px 8px rgba(102, 126, 234, 0.2);
+        color: #ffffff;
+    }
+    
+    /* Active/clicked state */
+    [data-testid="stSidebar"] button:active {
+        transform: translateX(3px) scale(0.98);
+        box-shadow: 0 2px 4px rgba(255, 75, 75, 0.3);
+    }
+    
+    /* About section styling */
+    [data-testid="stSidebar"] h3 {
+        color: #667eea;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+    
+    [data-testid="stSidebar"] .stMarkdown p {
+        color: #667eea;
+        font-size: 0.85rem;
+        line-height: 1.4;
+    }
+    
+    /* Divider styling */
+    [data-testid="stSidebar"] hr {
+        margin: 1rem 0;
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
 </style>
 """, unsafe_allow_html=True)
 
